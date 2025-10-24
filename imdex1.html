@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сравнение Porsche</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f3f4f6;
+      margin: 0;
+      padding: 30px;
+      color: #222;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #1a1a1a;
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    thead {
+      background: #1a1a1a;
+      color: #fff;
+    }
+
+    th, td {
+      padding: 14px;
+      text-align: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    th {
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f9fafb;
+    }
+
+    tbody tr:hover {
+      background: #f2f5f8;
+      transition: 0.3s ease;
+    }
+
+    tbody td:first-child {
+      font-weight: 600;
+      text-align: left;
+      background: #f7f7f7;
+      width: 25%;
+    }
+
+    img {
+      max-width: 160px;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Porsche Accent Line */
+    thead tr {
+      border-bottom: 3px solid #d60000;
+    }
+
+    /* Адаптивность для телефонов */
+    @media (max-width: 800px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody tr {
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      }
+
+      tbody td {
+        border: none;
+        text-align: left;
+        padding: 10px 15px;
+      }
+
+      tbody td:first-child {
+        background: #1a1a1a;
+        color: #fff;
+        border-radius: 10px 10px 0 0;
+      }
+
+      img {
+        display: block;
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Сравнение Porsche</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Параметры</th>
+        <th>Porsche Panamera</th>
+        <th>Porsche Cayenne</th>
+        <th>Porsche 911 Carrera</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Фото</td>
+        <td><img src="parnamera.jpg" alt="Panamera"></td>
+        <td><img src="каен.jpg" alt="Cayenne"></td>
+        <td><img src="911.webp" alt="911 Carrera"></td>
+      </tr>
+      <tr>
+        <td>Тип двигателя</td>
+        <td>2,9-литровый V6 с турбонаддувом (или V8 в спортивных версиях)</td>
+        <td>3,0-литровый V6 с турбонаддувом</td>
+        <td>3,0-литровый оппозитный 6-цилиндровый с турбинами</td>
+      </tr>
+      <tr>
+        <td>Расход топлива / энергопотребление</td>
+        <td>Зависит от версии (бензин / гибрид)</td>
+        <td>Около 10 л/100 км</td>
+        <td>≈ 9–11 л/100 км (в зависимости от версии)</td>
+      </tr>
+      <tr>
+        <td>Тип трансмиссии</td>
+        <td>8-ступенчатая автоматическая / двойное сцепление (PDK)</td>
+        <td>Автоматическая / гибридная</td>
+        <td>7-ступенчатый PDK</td>
+      </tr>
+      <tr>
+        <td>Количество передач</td>
+        <td>8</td>
+        <td>8</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Габариты (Д×Ш×В)</td>
+        <td>5049 × 1937 × 1420 мм</td>
+        <td>4930 × 1983 × 1696 мм</td>
+        <td>4520 × 2030 × 1270 мм</td>
+      </tr>
+      <tr>
+        <td>Объём багажника</td>
+        <td>445 л</td>
+        <td>770 л</td>
+        <td>132 л</td>
+      </tr>
+      <tr>
+        <td>Системы безопасности</td>
+        <td>ABS, ESP, подушки безопасности</td>
+        <td>ABS, ESP, подушки безопасности</td>
+        <td>ABS, ESP, подушки безопасности</td>
+      </tr>
+      <tr>
+        <td>Разгон до 100 км/ч</td>
+        <td>3,6 с</td>
+        <td>5,7 с</td>
+        <td>3,9 с</td>
+      </tr>
+      <tr>
+        <td>Максимальная скорость</td>
+        <td>306 км/ч</td>
+        <td>270 км/ч</td>
+        <td>300 км/ч</td>
+      </tr>
+      <tr>
+        <td>Начальная цена</td>
+        <td>от $102,800</td>
+        <td>от $84,300</td>
+        <td>от $114,400</td>
+      </tr>
+      <tr>
+        <td>Wi-Fi / Bluetooth</td>
+        <td>Есть</td>
+        <td>Есть</td>
+        <td>Есть</td>
+      </tr>
+      <tr>
+        <td>Тормозная система</td>
+        <td>Дисковые, вентилируемые</td>
+        <td>Дисковые, усиленные</td>
+        <td>Карбон-керамические (в спорт-версиях)</td>
+      </tr>
+      <tr>
+        <td>Системы предотвращения столкновений</td>
+        <td>Есть</td>
+        <td>Есть</td>
+        <td>Есть</td>
+      </tr>
+      <tr>
+        <td>Гарантийный срок</td>
+        <td>3 года / 100 000 км</td>
+        <td>3 года / 100 000 км</td>
+        <td>3 года / 100 000 км</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

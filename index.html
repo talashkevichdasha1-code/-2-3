@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сравнение машин</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(135deg, #e8ecf2, #f9fbfd);
+      margin: 0;
+      padding: 30px;
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    caption {
+      font-size: 1.8em;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #2c3e50;
+      text-align: left;
+      padding-left: 10px;
+    }
+
+    thead {
+      background: #1e2a38;
+      color: #fff;
+    }
+
+    th, td {
+      padding: 14px 10px;
+      text-align: center;
+      border-bottom: 1px solid #e0e4e8;
+    }
+
+    thead th {
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    tbody th {
+      background: #f4f6f8;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #fafbfc;
+    }
+
+    tbody tr:hover {
+      background: #f0f3f7;
+      transition: 0.3s ease;
+    }
+
+    img {
+      max-width: 180px;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Адаптивность */
+    @media (max-width: 700px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      thead {
+        display: none;
+      }
+      tbody tr {
+        margin-bottom: 15px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      }
+      tbody th {
+        background: #1e2a38;
+        color: #fff;
+        border-radius: 10px 10px 0 0;
+      }
+      tbody td {
+        border: none;
+        text-align: left;
+        padding-left: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Сравнение машин</caption>
+    <thead>
+      <tr>
+        <th>Параметры</th>
+        <th>Lamborghini</th>
+        <th>Voyah</th>
+        <th>Jaguar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Самая дорогая модель</th>
+        <td>Lamborghini Revuelto</td>
+        <td>Voyah Dream</td>
+        <td>Jaguar Project 8</td>
+      </tr>
+      <tr>
+        <th>Самая дешёвая модель</th>
+        <td>Urus</td>
+        <td>Voyah Free</td>
+        <td>Jaguar XJS V12</td>
+      </tr>
+      <tr>
+        <th>Двигатель/силовая установка</th>
+        <td>Гибрид V12 + электрические моторы</td>
+        <td>Электрические / гибридные установки</td>
+        <td>Бензиновые и электрические версии</td>
+      </tr>
+      <tr>
+        <th>Расход топлива</th>
+        <td>Комбинированный (электро + бензин)</td>
+        <td>20,2 кВт·ч/100 км</td>
+        <td>≈ 5,0 л/100 км</td>
+      </tr>
+      <tr>
+        <th>Ускорение 0–100 км/ч</th>
+        <td>≈ 2,9 с</td>
+        <td>≈ 4,4 с</td>
+        <td>≈ 4–5 с</td>
+      </tr>
+      <tr>
+        <th>Максимальная скорость</th>
+        <td>330 км/ч</td>
+        <td>200 км/ч</td>
+        <td>250 км/ч</td>
+      </tr>
+      <tr>
+        <th>Трансмиссия</th>
+        <td>8-ступенчатая DCT</td>
+        <td>Автомат</td>
+        <td>8-ступенчатый автомат</td>
+      </tr>
+      <tr>
+        <th>Фото</th>
+        <td><img src="лб.webp" alt="Lamborghini"></td>
+        <td><img src="v.webp" alt="Voyah"></td>
+        <td><img src="ягуар.webp" alt="Jaguar"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
